@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-dialog]').forEach(button=>{const dialog=document.getElementById(button.dataset.dialog);button.addEventListener('click',()=>dialog.showModal());dialog.querySelector('button').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close()})});
