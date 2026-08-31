@@ -11,7 +11,7 @@ The public architecture is intentionally described at the system level. Environm
 1. **Synthetic inputs** — pilots, bid periods, bid submissions, ranked preferences, position categories, seed vacancies, manpower requirements, training parameters, and engineered demonstration cases.
 2. **Deterministic decision engine** — evaluates pilots in seniority order against vacancy availability, bid contingencies, freeze and new-fleet rules, and classification logic. It produces award decisions, preference and rule traces, vacancy lineage, training assignments, manpower forecasts, and scenario summaries.
 3. **Ontology preparation** — converts engine and authored-scenario outputs into stable object-shaped datasets.
-4. **Foundry Ontology** — models 16 connected business concepts and their relationships.
+4. **Foundry Ontology** — models 18 connected business concepts across 40 Link Types.
 5. **Workshop applications** — supports scenario authoring, leadership analysis, exception review, and pilot-facing explanation.
 
 ![End-to-end architecture](../assets/architecture.png)

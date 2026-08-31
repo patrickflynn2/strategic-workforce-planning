@@ -7,7 +7,7 @@ A public case study of an end-to-end strategic workforce planning platform built
 ## What this demonstrates
 
 - Data pipeline design and deterministic Python transformation logic
-- A 16-object Foundry Ontology with navigable business relationships
+- An 18-object Foundry Ontology with 40 navigable Link Types
 - Scenario authoring through validated Ontology Actions
 - Immutable execution requests and traceable scenario outputs
 - Leadership, planning, exception-review, and pilot-facing Workshop experiences
